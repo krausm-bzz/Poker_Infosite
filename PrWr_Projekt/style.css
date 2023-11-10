@@ -29,11 +29,13 @@ header h1 {
 
 nav {
     margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 nav ul {
     margin-left: 150px;
     list-style: none;
+
 
     padding: 0;
 }
@@ -51,9 +53,7 @@ nav a {
 
 /* Hauptinhalt-Stile */
 
-main {
-    padding: 20px 0;
-}
+
 
 /* Stile für Glücksspiel- und Texas Hold'em-Inhalte */
 
@@ -84,7 +84,9 @@ a {
     color: darkred;
 }
 div video {
-    max-width: 600px; /* Maximalbreite des Videos */
-    margin: 0 auto; /* Zentrierung des Videos */
+
+    width: 100vw; /* 100% der Bildschirmbreite */
+    height: 450px;
+    object-fit: cover;
 }
 
