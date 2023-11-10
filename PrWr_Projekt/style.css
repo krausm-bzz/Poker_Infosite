@@ -1,0 +1,90 @@
+/* Allgemeine Stile */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    color: darkred;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header-Stile */
+
+header {
+    background-color: black;
+    color: darkred;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigations-Stile */
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    margin-left: 150px;
+    list-style: none;
+
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+}
+
+/* Hauptinhalt-Stile */
+
+main {
+    padding: 20px 0;
+}
+
+/* Stile für Glücksspiel- und Texas Hold'em-Inhalte */
+
+#gluecksspiel {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#texas-holdem {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Footer-Stile */
+
+footer {
+    background-color: Black;
+    color: darkred;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: darkred;
+}
+div video {
+    max-width: 600px; /* Maximalbreite des Videos */
+    margin: 0 auto; /* Zentrierung des Videos */
+}
+
