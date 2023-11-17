@@ -9,8 +9,10 @@ body {
 }
 
 .container {
-    width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
+    overflow: hidden;
+    font-size: large;
 }
 
 /* Header-Stile */
@@ -90,3 +92,25 @@ div video {
     object-fit: cover;
 }
 
+.text-box {
+    float: left;
+    width: 100%;
+    background-color: lightgray;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image-box {
+    width: 100%; /* Das Bild nimmt 100% der Breite des übergeordneten Containers ein */
+    height: auto;
+    max-width: 400px; /* Begrenzen Sie die maximale Breite des Bildes, passen Sie nach Bedarf an */
+    display: block;
+    margin: 10px auto; /* Zentrieren Sie das Bild innerhalb des Containers */
+}
+@media (max-width: 768px) {
+    .text-box,
+    .image-box {
+        width: 100%;
+        float: none;
+    }
+}
