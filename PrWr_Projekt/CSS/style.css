@@ -107,20 +107,35 @@ div video {
     max-width: 400px; /* Begrenzen Sie die maximale Breite des Bildes, passen Sie nach Bedarf an */
     display: block;
     margin: 10px auto; /* Zentrieren Sie das Bild innerhalb des Containers */
+
 }
 @media (max-width: 768px) {
     .text-box,
     .image-box {
         width: 100%;
-        float: none;
+        float: right;
     }
 }
 .text-box2 {
     float: right;
-    width: 50%;
+    width: 100%;
     background-color: lightgray;
     padding: 20px;
     box-sizing: border-box;
 }
 
 
+
+.abstand{
+    margin-bottom: -20px;
+}
+.abstand2{
+    margin-bottom: -40px;
+}
+.abstandbild{
+    margin-top: +40px;
+}
+
+div{
+    background-color: lightgray;
+}
