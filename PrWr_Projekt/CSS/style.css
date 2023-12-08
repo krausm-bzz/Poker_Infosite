@@ -31,13 +31,13 @@ header h1 {
 /* Navigations-Stile */
 
 nav {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 0px;
     border: lightgray;
 }
 
 nav ul {
-    margin-left: 150px;
+    margin-left: 10px;
     list-style: none;
     border: lightgray;
 
@@ -167,4 +167,26 @@ div video {
 .abstandbild{
     margin-top: +40px;
 }
+#carousel-container{
+    width: 100%;
+}
+div .quote{
+    width: 100%;
+}
 
+.logo{
+    margin-left: 0px;
+}
+.nav1{
+    margin-top: 21px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.card-img-top{
+    height: 450px;
+}
