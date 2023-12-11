@@ -6,13 +6,13 @@
   <title>Startseite</title>
   <link rel='stylesheet' href='../CSS/style.css'>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <script src='../JS/carousel.js'defer></script>
+  <script src='../JS/carousel.js' defer></script>
 </head>
 <body>
 <header>
   <nav>
     <ul class='nav'>
-      <li class='nav'><a href='Start.html'></a><img class='logo' alt='Startseitelogo' src='../Bilder/img_6.png' width='64' height='64'></li>
+      <li class='nav'><a href='Start.html'></a><img class='logo' alt='Startseitelogo' src='./PrWr_Projekt/Bilder/img_6.png' width='64' height='64'></li>
       <li class="nav1"><a class="active" href="Start.html">Startseite</a></li>
       <li class="nav1"><a href="Texas.html">Texas hold 'em</a></li>
       <li class="nav1"><a href="Geschichte.html">Geschichte</a></li>
@@ -38,22 +38,24 @@
       Am Beispiel von Texas Hold'em versuchen wir die Geschichte und Einflüsse von Glücksspiel aufzuzeigen und zu erklären.
     </section>
     <section>
-      <div id="carousel-container">
-        <div id="quote-container">
-          <div class="quote">"Vertraue jedem, aber hebe immer die Karten ab." - Lester “Benny” Binion</div>
-          <div class="quote">"Sieh dich am Tisch um. Wenn du den Trottel nicht siehst, steh auf, denn dann bist du es selber." - Amarillo Slim</div>
-          <div class="quote">"Wenn Glück nicht involviert wäre, würde ich wohl jedes Mal gewinnen." - Phil Helmut</div>
-          <div class="quote">"Limit-Poker ist eine Wissenschaft, aber No-Limit ist eine Kunst." - Crandell Addington</div>
-          <div class="quote">"Asse sind überlebensgroß und größer als Berge." - Mike Caro</div>
-          <div class="quote">"Ein Mann mit Geld ist kein Gegner für einen Mann mit einer Mission." - Doyle “Texas Dolly” Brunson</div>
-          <div class="quote">"Poker, einen Tag um es zu lernen, ein Leben lang um es zu meistern." - Robert Williamson III</div>
-          <div class="quote">"Zeig mir einen guten Verlierer und ich zeige dir einen richtigen Verlierer." - Stu “the Kid” Ungar</div>
-          <div class="quote">"Poker ist zu Stud, was Schach zu Dame ist." - Johnny Moss</div>
+      <div id="carousel">
+        <div id="carousel-container">
+          <div id="quote-container">
+            <div class="quote">"Vertraue jedem, aber hebe immer die Karten ab." - Lester “Benny” Binion</div>
+            <div class="quote">"Sieh dich am Tisch um. Wenn du den Trottel nicht siehst, steh auf, denn dann bist du es selber." - Amarillo Slim</div>
+            <div class="quote">"Wenn Glück nicht involviert wäre, würde ich wohl jedes Mal gewinnen." - Phil Helmut</div>
+            <div class="quote">"Limit-Poker ist eine Wissenschaft, aber No-Limit ist eine Kunst." - Crandell Addington</div>
+            <div class="quote">"Asse sind überlebensgroß und größer als Berge." - Mike Caro</div>
+            <div class="quote">"Ein Mann mit Geld ist kein Gegner für einen Mann mit einer Mission." - Doyle “Texas Dolly” Brunson</div>
+            <div class="quote">"Poker, einen Tag um es zu lernen, ein Leben lang um es zu meistern." - Robert Williamson III</div>
+            <div class="quote">"Zeig mir einen guten Verlierer und ich zeige dir einen richtigen Verlierer." - Stu “the Kid” Ungar</div>
+            <div class="quote">"Poker ist zu Stud, was Schach zu Dame ist." - Johnny Moss</div>
+          </div>
         </div>
-      </div>
 
-      <button id="prev" onclick="updateCarousel(-1)">❮</button>
-      <button id="next" onclick="updateCarousel(1)">❯</button>
+        <button id="prev" onclick="updateCarousel(-1)">❮</button>
+        <button id="next" onclick="updateCarousel(1)">❯</button>
+      </div>
     </section>
   </article>
 </main>

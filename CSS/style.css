@@ -125,22 +125,29 @@ div video {
     box-sizing: border-box;
 }
 /* carousel style -------------*/
+
+#carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 #carousel-container {
     width: 400px;
     overflow: hidden;
-    margin: 20px;
     border: 1px solid #ccc;
     text-align: center;
 }
 
 #quote-container {
     display: flex;
-    width: 400%;
+    width: 1000%;
     transition: transform 0.5s ease-in-out;
 }
 
 .quote {
-    width: 25%;
+    width: 100%;
     box-sizing: border-box;
     font-style: italic;
     padding: 20px;
