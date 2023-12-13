@@ -9,6 +9,28 @@ body {
     padding: 0;
 }
 
+.page-title {
+    text-align: center;
+    font-size: 3em;
+    color: darkred;
+    margin-bottom: 20px;
+    font-family: 'Helvetica', sans-serif; /* Du kannst die Schriftart nach Bedarf anpassen */
+}
+
+.content-section {
+    text-align: justify;
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.content-section p::first-letter {
+    font-size: 1.5em;
+    color: darkred;
+}
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -89,7 +111,7 @@ a {
 }
 div video {
 
-    width: 100vw; /* 100% der Bildschirmbreite */
+    width: 100vw;
     height: 450px;
     object-fit: cover;
 }
@@ -103,11 +125,11 @@ div video {
 }
 
 .image-box {
-    width: 100%; /* Das Bild nimmt 100% der Breite des übergeordneten Containers ein */
+    width: 100%;
     height: auto;
-    max-width: 400px; /* Begrenzen Sie die maximale Breite des Bildes, passen Sie nach Bedarf an */
+    max-width: 400px;
     display: block;
-    margin: 10px auto; /* Zentrieren Sie das Bild innerhalb des Containers */
+    margin: 10px auto;
 
 }
 @media (max-width: 768px) {
@@ -129,8 +151,6 @@ div video {
 #carousel {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 #carousel-container {
@@ -175,7 +195,7 @@ div video {
     margin-top: +40px;
 }
 #carousel-container{
-    width: 100%;
+    width: 50%;
 }
 div .quote{
     width: 100%;
