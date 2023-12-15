@@ -222,4 +222,6 @@ div video {
 
 .active {
     background-color: firebrick;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
