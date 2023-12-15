@@ -1,6 +1,5 @@
 /* Allgemeine Stile */
 
-/jj/
 body {
     font-family: 'Arial', sans-serif;
     background-color: white;
@@ -227,5 +226,8 @@ div video {
 }
 
 ._ce722a2{
-    width: 1519.2px;
+    width: 100%;
+}
+footer ul a {
+    color: firebrick;
 }
