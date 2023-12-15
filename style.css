@@ -218,3 +218,7 @@ div video {
 .card-img-top{
     height: 450px;
 }
+
+.active {
+    background-color: firebrick;
+}
