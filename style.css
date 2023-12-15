@@ -205,6 +205,7 @@ div video {
 .logo{
     margin-left: 0px;
 }
+
 .nav1{
     margin-top: 21px;
     margin-left: 20px;
@@ -221,6 +222,4 @@ div video {
 
 .active {
     background-color: firebrick;
-    padding: 5px 10px;
-    border-radius: 5px;
 }
