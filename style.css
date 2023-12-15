@@ -4,7 +4,7 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: white;
-    color: darkred;
+    color: black;
     margin: 0;
     padding: 0;
 }
@@ -12,7 +12,7 @@ body {
 .page-title {
     text-align: center;
     font-size: 3em;
-    color: darkred;
+    color: black;
     margin-bottom: 20px;
     font-family: 'Helvetica', sans-serif; /* Du kannst die Schriftart nach Bedarf anpassen */
 }
@@ -27,7 +27,7 @@ body {
 
 .content-section p::first-letter {
     font-size: 1.5em;
-    color: darkred;
+    color: black;
 }
 
 
@@ -42,7 +42,7 @@ body {
 
 header {
     background-color: black;
-    color: darkred;
+    color: black;
     padding: 10px 0;
 }
 
@@ -154,7 +154,7 @@ div video {
 }
 
 #carousel-container {
-    width: 400px;
+    width: 1296px;
     overflow: hidden;
     border: 1px solid #ccc;
     text-align: center;
@@ -169,6 +169,7 @@ div video {
 .quote {
     width: 100%;
     box-sizing: border-box;
+    font-size: 25px;
     font-style: italic;
     padding: 20px;
     border: 1px solid #ddd;
@@ -177,10 +178,17 @@ div video {
     margin-right: 10px;
 }
 
-#prev, #next {
+#prev {
     cursor: pointer;
     font-size: 24px;
     margin: 10px;
+    float: left;
+
+}#next {
+    cursor: pointer;
+    font-size: 24px;
+    margin: 10px;
+    float: right;
 }
 
 
@@ -192,12 +200,6 @@ div video {
 }
 .abstandbild{
     margin-top: +40px;
-}
-#carousel-container{
-    width: 50%;
-}
-div .quote{
-    width: 100%;
 }
 
 .logo{
